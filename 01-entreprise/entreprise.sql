@@ -121,7 +121,7 @@ INSERT INTO employes VALUES (NULL, 'John', 'Doe', 'm', 'communication', '2019-12
 -- Requêtes de modification
 -- ************************************
 
--- UPDATE
+-- UPDATEr
 UPDATE employes SET salaire = 1871 WHERE id_employes = 699; -- on modifie le salaire de l'employé d'identifiant 699 pour ne pas modifier tous les employés qui porteraient le même nom.
 
 -- A NE PAS FAIRE : un UPDATE sans clause WHERE quand on veut ne modifier qu'un seul enregistrement :
